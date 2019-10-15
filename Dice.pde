@@ -54,7 +54,6 @@ class Die //models one single dice cube
     float y1 = myY + 50/4;
     float y2 = myY + 100/4;
     float y3 = myY + 150/4;
-    System.out.println(rolled);
     if(rolled == 1)
     {
       ellipse(myX + 25, myY + 25, 10,10);
